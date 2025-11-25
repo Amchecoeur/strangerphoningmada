@@ -2,14 +2,21 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Strangers Phoning</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- 1. Titre correct -->
+    <title>Stranger Phoning Mada</title>
+    
+    <!-- 2. Importation de la Police Rétro (INDISPENSABLE pour le look) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body class="bg-black text-white">
     <div id="root"></div>
+    
+    <!-- 3. Point d'entrée vers le fichier React (Pas de CDN Tailwind ici !) -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
-
-
